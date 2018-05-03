@@ -1,0 +1,45 @@
+.backdrop {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    background-color: #181818;
+    transition-duration: .3s;
+}
+
+.backdrop_close {
+    visibility: hidden;
+    opacity: 0;
+}
+
+.backdrop_open {
+    visibility: visible;
+    opacity: 0.4;
+}
+
+.backdrop_transition {
+    opacity: calc(0.4 * var(--var-degree, 0.5)) !important;
+    transition: none !important;
+    visibility: visible;
+}
+
+.drawer {
+    top: 0;
+    left: 0;
+    transform: translateX(-100%);
+    position: fixed;
+    z-index: 1010;
+    height: 100vh;
+    transition: .3s;
+}
+
+.drawer_transition {
+    transform: translateX(var(--var-position, -100%)) !important;
+    transition: none !important;
+}
+
+.drawer_open {
+    transform: none;
+}

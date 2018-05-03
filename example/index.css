@@ -1,0 +1,27 @@
+.menu {
+    height: 100vh;
+    background-color: white;
+}
+
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.item {
+    display: block;
+    padding: 8px 10px;
+}
+
+.item a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.item:hover {
+    background-color: #f9f9f9;
+}
+
+.content {
+    height: 2000px;
+}
