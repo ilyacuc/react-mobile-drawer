@@ -33,6 +33,7 @@
     z-index: 1010;
     height: 100vh;
     transition: .3s;
+    max-width: 500px;
 }
 
 .drawer_transition {

@@ -4,10 +4,10 @@ Simple react drawer component with touch events support
 Example: https://ilyacuc.github.io/react-mobile-drawer/
 
 **Usage**
-
-```import React from "react";
+```javascript
+   import React from "react";
    import ReactDOM from "react-dom";
-   import Drawer from '.react-mobile-drawer';
+   import Drawer from 'react-mobile-drawer';
    
    class App extends React.PureComponent {
    	constructor(props) {
@@ -38,4 +38,5 @@ Example: https://ilyacuc.github.io/react-mobile-drawer/
    	}
    }
    
-   ReactDOM.render(<App/>, document.getElementById("app"));```
+   ReactDOM.render(<App/>, document.getElementById("app"));
+```
