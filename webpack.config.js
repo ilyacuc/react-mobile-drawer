@@ -3,6 +3,9 @@ const path = require("path");
 
 module.exports = {
 	entry: './example/index.js',
+	output: {
+		path: path.join(__dirname, "docs")
+	},
 	module: {
 		rules: [
 			{
