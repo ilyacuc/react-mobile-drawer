@@ -43,6 +43,7 @@ ReactDOM.render(<App/>, document.getElementById("app"));
 
 **Props**
 Prop Name | Default Value | Description
+---|---|---
 isOpen| false | controls state of drawer
 backdropClassName| empty string | class name to style backdrop
 drawerClassName| empty string | class name to style drawer container
