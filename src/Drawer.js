@@ -99,7 +99,7 @@ export default class Drawer extends React.PureComponent {
 			if (!this.props.isOpen && (touch.pageX - this.initialXShift > document.documentElement.clientWidth / 3)) {
 				this.openDrawer();
 			} else {
-				if (this.props.isOpen && (touch.pageX - this.initialXShift > document.documentElement.clientWidth / 2)) {
+				if (this.props.isOpen && (touch.pageX + this.initialXShift > document.documentElement.clientWidth / 2)) {
 					this.closeDrawer();
 				}
 			}

@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-drawer",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Simple react drawer component with touch events support",
   "main": "src/index.js",
   "scripts": {
