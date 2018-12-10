@@ -1,6 +1,6 @@
 {
   "name": "react-mobile-drawer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple react drawer component with touch events support",
   "main": "src/index.js",
   "scripts": {
@@ -34,18 +34,18 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
+    "babel-loader": "^7.1.5",
     "babel-plugin-syntax-class-properties": "^6.13.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.11",
-    "mini-css-extract-plugin": "^0.4.0",
-    "prop-types": ">=15.6.0",
-    "react": ">=16.3.0",
-    "react-dom": ">=16.3.0",
-    "webpack": "^4.11.1",
+    "mini-css-extract-plugin": "^0.4.5",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "webpack": "^4.27.1",
     "webpack-cli": "^2.1.5",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.1.10"
   }
 }
