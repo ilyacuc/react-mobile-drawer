@@ -42,6 +42,7 @@ ReactDOM.render(<App/>, document.getElementById("app"));
 ```
 
 **Props**
+
 | Prop Name | Default Value | Description |
 |-----------|---------------|-------------|
 |isOpen| false | controls state of drawer|
